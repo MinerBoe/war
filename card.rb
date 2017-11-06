@@ -1,5 +1,3 @@
-require './deck'
-
 class Card
 	attr_accessor :suit, :value, :face
 	
@@ -17,7 +15,7 @@ class Card
 		end
 	end
 	 
-	def to_s(card)	
-		return "#{card}"
+	def to_s()	
+		return "#{face} of #{suit}"
 	end
 end
