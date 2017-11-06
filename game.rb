@@ -16,9 +16,9 @@ deck.splitDeck()
 computer.addDeck(deck.deckCPU)
 player.addDeck(deck.deckPlayer)
 
-game = War.new(player, computer)
+game = War.new(player.playerDeck, computer.computerDeck)
 
-game.battle
+game.battle()
 
 # in the war class 
 # compare the values then go to a war function in the same class then go back to battle
